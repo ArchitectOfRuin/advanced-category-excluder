@@ -16,7 +16,7 @@ The main goal was, to enhance WordPress’s functionalities, to hide some unwant
 Today, **ACE** can override your search results, your RSS feed listing, your category listing, your recent post, and recent post widgets and also your entry page, or even hide whole categories of posts from web crawlers if you want to. 
 This is great, for **SEO** reasons, for content separation, for grouping information, and handle them as real sub pages.
 
-**[Download now!](http://downloads.wordpress.org/plugin/advanced-category-excluder.1.4.3.zip)**
+**[Download now!](http://downloads.wordpress.org/plugin/advanced-category-excluder.1.4.5.zip)**
 
 [Support](http://ace.dev.rain.hu/) |
 [FAQ](http://ace.dev.rain.hu/faq/) |

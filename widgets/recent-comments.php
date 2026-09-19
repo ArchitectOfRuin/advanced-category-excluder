@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Advanced Category Excluder Widgets
-Version: 1.3.1.1
+Version: 1.4.4
 Plugin URI: http://advanced-category-excluder.dev.rain.hu
 Description: This plugin adds some basic widgetsm that support category exclusion
 Author: DjZoNe
