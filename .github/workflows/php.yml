@@ -1,0 +1,30 @@
+name: PHP Syntax Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  php-lint:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up PHP 7.4
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+          coverage: none
+
+      - name: Check PHP syntax
+        shell: bash
+        run: |
+          set -e
+          find . -type f -name "*.php" -print0 |
+            xargs -0 -n1 php -l
