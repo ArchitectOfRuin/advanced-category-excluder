@@ -6,6 +6,13 @@
 
 Control where selected categories appear across your WordPress site, including posts, feeds, searches, pages, and widgets.
 
+## Requirements
+
+- WordPress
+- PHP 7.4 or newer
+
+The plugin is designed to remain compatible with PHP 7.4 while supporting current WordPress versions.
+
 ## Features
 
 - Category exclusion
