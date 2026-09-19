@@ -1,16 +1,16 @@
 <?php
 /*
 Plugin Name: Advanced Category Excluder
-Version: 1.4.5
-Plugin URI: http://ace.dev.rain.hu
+Version: 1.4.6
+Plugin URI: https://oddstyle.ru/
 Description: This plugin helps you to manage your content, RSS feeds, sidebar widgets, and fine tune where you want to display your posts, pages, links, link categories, or hide.
-Author: DjZoNe
-Author URI: http://djz.hu/
+Author: ArchitectOfRuin
+Author URI: https://oddstyle.ru/
 */
 
 global $ace_targets, $ace_settings, $ace_version;
 
-$ace_version = '1.4.5';
+$ace_version = '1.4.6';
 
 if ($_GET['page'] == 'ace_page_main')
 {
@@ -41,7 +41,7 @@ function ace_admin_notices($msg)
 {
   global $ace_version;
   
-  $url = 'http://ace.dev.rain.hu';   
+  $url = 'https://oddstyle.ru/';   
   $msg = sprintf(__('It seems <strong>ACE plugin</strong> is just upgraded to the latest version %1$s. Please <strong>review the changes</strong> at our homepage <a href="%2$s" target="_blank">%2$s</a>','ace'),$ace_version,$url);
 
   echo "<div id='update-nag'>$msg</div>";  

@@ -2,10 +2,10 @@
 /*
 Plugin Name: Advanced Category Excluder Widgets
 Version: 1.4.5
-Plugin URI: http://advanced-category-excluder.dev.rain.hu
+Plugin URI: https://oddstyle.ru/
 Description: This plugin one basic widgetsm that support exclusion
-Author: DjZoNe
-Author URI: http://djz.hu/
+Author: ArchitectOfRuin
+Author URI: https://oddstyle.ru/
 */
 
 require_once("widgets/recent-comments.php");
