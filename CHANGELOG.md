@@ -1,14 +1,14 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this repository will be documented in this file.
 
-## [Unreleased]
-
-### Compatibility
-- Updated the repository to the current installed version of Advanced Category Excluder.
-- Applied compatibility updates required for PHP 7.4.
+## [1.4.5]
 
 ### Maintenance
-- Cleaned up the repository structure.
-- Removed obsolete files from the previous repository state.
-- Added modern GitHub repository documentation and configuration.
+- Repository synchronized with the current working installation of Advanced Category Excluder.
+- Preserved the existing plugin code and functionality.
+- Updated repository documentation and GitHub configuration.
+
+### Compatibility
+- The current working copy is used in a WordPress environment running PHP 7.4.33.
+- GitHub Actions performs an automated PHP 7.4 syntax check.
