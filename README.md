@@ -30,7 +30,9 @@ The current working installation runs on **PHP 7.4.33**.
 Tested with:
 
 PHP 7.4
+
 WordPress 6.8
+
 Advanced Category Excluder 1.4.6
 
 GitHub Actions automatically checks the PHP syntax using **PHP 7.4**.
