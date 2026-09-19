@@ -1,5 +1,7 @@
 # Advanced Category Excluder
 
+[![PHP 7.4 Syntax Check](https://github.com/ArchitectOfRuin/advanced-category-excluder/actions/workflows/php.yml/badge.svg)](https://github.com/ArchitectOfRuin/advanced-category-excluder/actions/workflows/php.yml)
+
 **Advanced Category Excluder** is a WordPress plugin that provides advanced control over category exclusion in WordPress.
 
 The plugin allows administrators to exclude selected categories from different areas of a WordPress site, helping control which content appears in posts, feeds, searches, and other WordPress queries.
