@@ -39,8 +39,6 @@ Describe what happened instead.
 
 If available, paste the exact error message here.
 
-Paste the exact error message here.
-
 ## Additional information
 
 Add screenshots, logs, or any other information that may help reproduce the problem.
