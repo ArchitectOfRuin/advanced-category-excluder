@@ -2,56 +2,69 @@
 
 [![PHP 7.4 Syntax Check](https://github.com/ArchitectOfRuin/advanced-category-excluder/actions/workflows/php.yml/badge.svg)](https://github.com/ArchitectOfRuin/advanced-category-excluder/actions/workflows/php.yml)
 
-**Advanced Category Excluder** is a WordPress plugin that provides advanced control over category exclusion in WordPress.
+Advanced Category Excluder is a WordPress plugin that provides advanced control over category exclusion and content visibility.
 
-The plugin allows administrators to exclude selected categories from different areas of a WordPress site, helping control which content appears in posts, feeds, searches, and other WordPress queries.
+The plugin allows administrators to exclude selected categories from different areas of a WordPress site, including posts, feeds, searches, and other WordPress queries.
 
-## Features
+Version
 
-* Exclude selected categories from WordPress content.
-* Control category visibility in different WordPress contexts.
-* Support for excluding categories from feeds and searches.
-* Widget support.
-* Simple administration interface.
-* Compatible with WordPress installations using PHP 7.4.
+1.4.6
 
-## PHP Compatibility
+This is the maintained fork release by ArchitectOfRuin.
 
-This repository contains the current maintained version of the plugin with compatibility updates for:
+Website: https://oddstyle.ru/
 
-* PHP 7.4
-* WordPress
+Features
+Exclude selected categories from WordPress content.
+Control category visibility in different WordPress contexts.
+Filter feeds and search results.
+Widget support.
+Administration interface for configuring exclusion behavior.
+Localization support.
+PHP Compatibility
 
-The code has been updated to remove legacy PHP functionality that is no longer available in modern PHP versions.
+The current working installation runs on PHP 7.4.33.
 
-## Installation
+GitHub Actions automatically performs a PHP 7.4 syntax check for the repository.
 
-1. Download or clone this repository.
+The automated workflow checks PHP syntax. Functional behavior should be tested in the target WordPress environment.
 
-2. Copy the plugin directory to:
+Installation
+Download the repository or the latest release.
 
-   `wp-content/plugins/`
+Copy the plugin directory to:
 
-3. Activate **Advanced Category Excluder** from the WordPress Plugins page.
+wp-content/plugins/
 
-4. Configure the plugin from the WordPress administration area.
+Activate Advanced Category Excluder from the WordPress Plugins page.
+Configure the plugin from the WordPress administration area.
+Screenshots
 
-## Development
+The repository includes screenshots of the plugin administration interface.
 
-This repository is a maintained version of Advanced Category Excluder based on the plugin currently used in a WordPress installation.
 
-The goal of this repository is to preserve the existing plugin functionality while keeping the code compatible with PHP 7.4.
 
-## Screenshots
 
-Screenshots of the plugin interface are included in this repository.
 
-## License
 
-This project retains the license of the original Advanced Category Excluder plugin.
 
-## Credits
+Development
 
-Original project: **Advanced Category Excluder**
+This repository is a maintained fork based on a currently working installation of Advanced Category Excluder.
 
-This repository contains compatibility and maintenance updates to the plugin.
+The goal is to preserve the existing plugin functionality while maintaining the repository and documenting changes.
+
+Changelog
+
+See CHANGELOG.md for release and repository maintenance information.
+
+Credits
+
+Advanced Category Excluder
+Maintained by ArchitectOfRuin
+
+Website: https://oddstyle.ru/
+
+License
+
+This project retains the licensing terms applicable to the original Advanced Category Excluder project.
